@@ -1,0 +1,122 @@
+/*
+#4C5FD5 BLUE
+
+#dadbf1 GREY
+
+#000000 BLACK
+
+#fff WHITE
+*/
+
+.top-nav {
+  position: relative;
+  min-width: 100%;
+  min-height: 3rem;
+
+  margin-top: 0;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #000000;
+}
+
+.nav-abstract {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  color: #fff;
+  border-right: solid rgb(255, 255, 255);
+  border-right-width: 0.5px;
+  padding-right: 1rem;
+}
+
+.nav-logo {
+  max-width: 2rem;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.nav-p {
+  margin-top: 0.5rem;
+}
+
+.nav-help-center {
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.nav-submit-a {
+  margin-left: 57%;
+}
+
+.nav-submit-request-button { 
+  background-color: rgb(36, 33, 33);
+  color: #fff;
+  border-radius: 3px;
+  padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+  border: 1px solid #fff;
+}
+
+.nav-sign-in {
+  margin-left: 2%;
+  margin-right: 2%; 
+}
+
+.nav-sign-in-button {
+  background: #4C5FD5;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-submit-a {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav-submit-request-button,
+  .nav-sign-in-button {
+    margin-left: 50%;
+    min-width: 6rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .nav-submit-request-button,
+  .nav-sign-in-button {
+    margin-left: 90%;
+    min-width: 7rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .nav-submit-request-button,
+  .nav-sign-in-button {
+    margin-left: 110%;
+    min-width: 7rem;
+  }
+  * {
+    font-size: 1.01em;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .nav-submit-request-button,
+  .nav-sign-in-button {
+    margin-left: 200%;
+    min-width: 8rem;
+  }
+}

@@ -1,0 +1,80 @@
+.skills {
+  min-height: 50rem;
+  min-width: 100%;
+  background-color: #fff;
+  margin-left: 5%;
+  margin-top: 5rem;
+}
+
+.skill-sections {
+  background-color: #fff;
+  min-height:45rem;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill-section,
+.skill-section1 {
+  background-color: #fff;
+  min-width: 45%;
+  max-width: 45%;
+  height: 33rem;
+  margin-left: .5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.skill-div {
+  background-color: rgb(255, 255, 255);
+  max-width: 100%;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  min-height: 10rem;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.skill-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.skill-image-div {
+  background-color: rgb(255, 255, 255);
+  max-width: 35%;
+  min-height: 100%;
+}
+
+.paragraphs {
+  background-color: #ffffff;
+  min-width: 65%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.learn-more-p {
+  color: #0300c9;
+  font-size: medium;
+}
+
+.skill-middle-p {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.arrow-right {
+  max-width: 1rem;
+  height: .5rem;
+}
+
+@media only screen and (max-width: 520px) {
+  .skill-section1 {
+    display: none
+  }
+}
